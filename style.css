@@ -1,0 +1,47 @@
+nav a {
+    color: white;
+}
+
+header {
+    background-color: dodgerblue;
+    color: white;
+}
+
+h1{
+    display:inline-block;
+    box-sizing: border-box;
+    width: 49%;
+    padding: 16px;
+    vertical-align: middle;
+}
+
+nav {
+    align-items: right;
+    display: inline-block;
+    width: 49%;
+    
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px 16px;
+    vertical-align: middle;
+}
+
+
+.column_1 {
+    display: inline-block;
+    vertical-align: top;
+   
+}
+
+.column_1 button {
+    display: block;
+    vertical-align: bottom;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.column_2 {
+    display: inline-block;
+}
