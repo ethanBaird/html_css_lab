@@ -1,3 +1,7 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 nav a {
     color: white;
 }
@@ -16,10 +20,13 @@ h1{
 }
 
 nav {
-    align-items: right;
     display: inline-block;
-    width: 49%;
+    align-items: center;
     
+}
+
+body {
+    padding: 20px;
 }
 
 nav li {
@@ -32,7 +39,7 @@ nav li {
 .column_1 {
     display: inline-block;
     vertical-align: top;
-   
+    width: 25%; 
 }
 
 .column_1 h4 {
@@ -48,12 +55,45 @@ nav li {
 
 .column_2 {
     display: inline-block;
+    width: 60%;
 }
 
 .column_2 img {
     display: inline-block;
+    width: 33%;
+    vertical-align: middle;
+    padding: 5px;
 }
 
 .preview {
-    display: block;
+    display: inline-block;
+    width: 62%;
+    vertical-align: middle  ;
 }
+
+
+textarea {
+    position: relative;
+}
+
+.user_comment {
+    margin-top: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+}
+
+.user_comment img {
+    padding-top: 10px;
+    border-radius: 50%;
+    max-width: 100px;
+
+}
+
+footer {
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
