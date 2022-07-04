@@ -1,9 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
-}
-
-nav a {
-    color: white;
+    padding: 20px;
 }
 
 header {
@@ -19,14 +16,13 @@ h1{
     vertical-align: middle;
 }
 
+nav a {
+    color: white;
+}
+
 nav {
     display: inline-block;
     align-items: center;
-    
-}
-
-body {
-    padding: 20px;
 }
 
 nav li {
@@ -55,20 +51,20 @@ nav li {
 
 .column_2 {
     display: inline-block;
-    width: 60%;
+    width: 74%;
 }
 
 .column_2 img {
     display: inline-block;
-    width: 33%;
+    width: 38%;
     vertical-align: middle;
     padding: 5px;
 }
 
 .preview {
     display: inline-block;
-    width: 62%;
-    vertical-align: middle  ;
+    width: 58%;
+    vertical-align: middle;
 }
 
 
