@@ -35,6 +35,10 @@ nav li {
    
 }
 
+.column_1 h4 {
+    margin: 5px;
+}
+
 .column_1 button {
     display: block;
     vertical-align: bottom;
@@ -44,4 +48,12 @@ nav li {
 
 .column_2 {
     display: inline-block;
+}
+
+.column_2 img {
+    display: inline-block;
+}
+
+.preview {
+    display: block;
 }
